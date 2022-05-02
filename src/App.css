@@ -1,0 +1,108 @@
+
+.operator{
+  
+  margin-top: 2px;
+align-items: right;
+
+} 
+
+button{
+  background: var(--btn-color);
+  width: 100px;
+  height: 50px;
+ border-radius: 12px;
+ border:var(--br-color);
+  font-size: 40px;
+  margin: 3px;
+  
+}
+.theme{
+  background: var(--btn-color);
+  width: 50px;
+  height: 20px;
+ border-radius: 12px;
+ border:var(--br-color);
+  font-size: 30px;
+  margin: 3px;
+  
+}
+
+input{
+  width: 423px;
+  height: 40px;
+ border-radius: 7px;
+margin-top: 5px;
+margin-bottom: 5px;
+ font-size: 40px;
+ background: var(--bp-color);
+}
+.theme{
+
+  /* margin-top: 30%; */
+  font-size: 20px;
+  width: 150px;
+margin-left: 10%;
+}
+
+.calculator{
+border: var(--br-color);
+width: 430px;
+margin-left: 20%;
+background-color: var(--bg-color);
+border-radius: 7px;
+  
+}
+.container{
+/* border: var(--br-color);
+width: 430px;
+margin-left: 20%; */
+background-color: var(--all-color);
+  
+}
+.clear{
+  width: 150px;
+  /* margin-left: 30px; */
+}
+.clearall{
+  width: 180px;
+   margin-left: 28%; 
+   margin-right: 25%; 
+}
+.down{
+  width: 250px;
+ 
+  
+}
+
+
+:root,
+:root.dark {
+  --bg-color: #1e2544;
+  --text-color: #45adfe;
+  --btn-color: rgb(34, 46, 51);
+  --br-color: solid 2px rgb(0, 0, 0);
+  --all-color:  rgb(0, 0, 0);
+  --bp-color: rgb(100, 77, 116);
+
+}
+
+
+
+:root.green {
+  --bg-color: #3c5e2d;
+  --text-color: #45fec0;
+  --btn-color: rgb(49, 82, 62);
+  --br-color: solid 2px rgb(36, 63, 58);
+  --all-color:  rgb(188, 235, 211);
+  --bp-color: rgb(189, 235, 216);
+
+}
+:root.light {
+  --bg-color: rgb(153, 24, 24);
+  --btn-color: rgb(240, 172, 172);
+  --text-color: rgb(51, 17, 17);
+  --br-color: solid 2px rgb(253, 253, 253);
+  --all-color:  rgb(255, 255, 255);
+  --bp-color: rgb(255, 255, 255);
+}
+
